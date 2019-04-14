@@ -1,0 +1,23 @@
+.card-header{
+    text-align: left
+}
+.table{
+    color: navy;
+}
+.form{
+    text-align: left;
+
+}
+h2, p{
+    text-align: center;
+}
+.card-title{
+    padding-top: 40px;
+    color: white;
+    font-size: 130px;
+    
+}
+
+.container{
+    color: navy;
+}
