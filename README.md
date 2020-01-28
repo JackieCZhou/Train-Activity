@@ -1,42 +1,28 @@
-# Train-Activity
-This project was designed using moment.js to caclulate the schedule of trains added by the user.
-
-
-
-By clicking submit your train will be added to the scheudle. Refreshing the page will update the "Next Arrival" and "Minutes Away" columns to the most current times based on information given earlier.
-
-The visuals were designed through bootstrap.
-
-
+# Train-Scheduler
 
 Train Scheduler: 
 
 Follow the link to use this app: https://jackieczhou.github.io/Train-Scheduler/
 
-
 Scheudler Layout:
 
-To add a train simply fill out the form on the page including new criteria for all of the following options:
+-Using a Firebase database and a moment.js NPM this form allows the user to dynaically add new trains to a scheudle board. 
+
+-Upon clicking submit your train will be dynamically added to the scheudle. This data will be saved until you choose to remove said train via the Firebase database itself.
+
+-To see the most current "Next Arrival" and "Minutes Away" times refresh the page to the most current times based on information given up submission.
+
+
+To add a train simply fill out the form with new criteria for all of the following options:
 Train Name:
 Destination:
 First Train Time (in hh:MM format):
 Frequency (in minutes format):
 
-Upon clicking submit your train will be dynamically added to the scheudle. This data will be saved until you choose to remove said train via 
-Refreshing the page will update the "Next Arrival" and "Minutes Away" columns to the most current times based on information given earlier.
-
-A functional matching game, Crystal Collector uses Math.floor(Math.random() to generate random intergers for the computer and crystal buttons via auto-loading the page or through an onWin() or onLoss() event. Accumulated wins and losses are stored using sessionStorage until the page is refreshed. The goal of Crystal Collector being to match the computer score to the users score based on the addition of each crystals points via the onClick() event.
-
-Game Layout:
-
--Upon loading the page a randomly generated interger for the computer is applied to the "Computer Score" field. -Additionaly each of the crystals are assigned randomly generated intergers as well that are hidden from the player using a similar function. -As the user clicks a crystal the "Your Score" field is updated based on that crystals currently assigned point value.
-
-Going over the computers score will result in the "Loss" field increasing by one. An exact match to the "Your Score" and "Computer Score" fields will result in the "Win" field increasing by one.
-
-Upon a win or loss being triggered the game automatically restarts. New intergers are generated and assigned to the computer player as well as the crystals. The "Wins" and "Losses" fields keep track of their points until the page is refreshed.
-
-Coded in: HTML, CSS, Javascript
+Languages Used: HTML, CSS, Javascript
 
 Database: Firebase
 
-Design: Bootstrap
+NPM's used: momemnt.js
+
+Layout & Design: Bootstrap
