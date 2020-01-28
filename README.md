@@ -1,11 +1,7 @@
 # Train-Activity
 This project was designed using moment.js to caclulate the schedule of trains added by the user.
 
-To add a train simply follow tthe form on the page and fill in the follow:
-Train Name:
-Destination:
-First Train Time (in hh:MM format):
-Frequency (in minutes format):
+
 
 By clicking submit your train will be added to the scheudle. Refreshing the page will update the "Next Arrival" and "Minutes Away" columns to the most current times based on information given earlier.
 
@@ -15,7 +11,19 @@ The visuals were designed through bootstrap.
 
 Train Scheduler: 
 
-Follow the link to use this app: https://jackieczhou.github.io/Crystal-Collector/
+Follow the link to use this app: https://jackieczhou.github.io/Train-Scheduler/
+
+
+Scheudler Layout:
+
+To add a train simply fill out the form on the page including new criteria for all of the following options:
+Train Name:
+Destination:
+First Train Time (in hh:MM format):
+Frequency (in minutes format):
+
+Upon clicking submit your train will be dynamically added to the scheudle. This data will be saved until you choose to remove said train via 
+Refreshing the page will update the "Next Arrival" and "Minutes Away" columns to the most current times based on information given earlier.
 
 A functional matching game, Crystal Collector uses Math.floor(Math.random() to generate random intergers for the computer and crystal buttons via auto-loading the page or through an onWin() or onLoss() event. Accumulated wins and losses are stored using sessionStorage until the page is refreshed. The goal of Crystal Collector being to match the computer score to the users score based on the addition of each crystals points via the onClick() event.
 
@@ -28,5 +36,7 @@ Going over the computers score will result in the "Loss" field increasing by one
 Upon a win or loss being triggered the game automatically restarts. New intergers are generated and assigned to the computer player as well as the crystals. The "Wins" and "Losses" fields keep track of their points until the page is refreshed.
 
 Coded in: HTML, CSS, Javascript
+
+Database: Firebase
 
 Design: Bootstrap
