@@ -28,7 +28,7 @@ NPM's used: moment.js
 Layout & Design: Bootstrap
 
 The next steps of this project would be:
-Add more paramenters to the form/details available on each train
-Add another page for purchasing tickets to these trains
-Update the remove feature so the trains can be removed from the database directly from the page
-Add a feature to search for train options based on a variety of parameters such as "location" or "depature time"
+Add more paramenters to the form/details available on each train.
+Add another page for purchasing tickets to these trains.
+Update the remove feature so the trains can be removed from the database directly from the page.
+Add a feature to search for train options based on a variety of parameters such as "location" or "depature time".
